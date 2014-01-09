@@ -1,8 +1,8 @@
-This is a multi-threaded CPU miner for Litecoin and Bitcoin,
-and now Quarkcoin, forked from poolers cpuminer which is a 
+This is a multi-threaded CPU miner for Litecoin (Scrypt) and Bitcoin (Sha256),
+and Quark (Quarkcoin), forked from UncleBob, forked from Neisklar, forked from poolers cpuminer which is a 
 fork of Jeff Garzik's reference cpuminer.
 
-Git tree: https://github.com/Neisklar/quarkcoin-cpuminer
+Git tree: https://github.com/palmd/Cp3u
 
 Different than the Sha256 and Scrypt implementation, the QRK hashing is
 pure plain C code. So for performance gains, it may be good to tune
@@ -11,9 +11,7 @@ compilation with e.g. -march for specific CPU types
 
 License: GPLv2.  See COPYING for details.
 
-Poolers original README:
-
-Downloads:  https://sourceforge.net/projects/cpuminer/files/
+Downloads:  https://sourceforge.net/projects/philosopherstone/files/QRK/
 Git tree:   https://github.com/pooler/cpuminer
 
 Dependencies:
@@ -75,4 +73,4 @@ and all_proxy environment variables.
 
 Also many issues and FAQs are covered in the forum thread
 dedicated to this program,
-	https://bitcointalk.org/index.php?topic=55038.0
+	https://bitcointalk.org/index.php?topic=353448.0
